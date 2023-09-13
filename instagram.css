@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body{
+    background-color: rgb(238, 240, 244);
+    font-family:  Helvetica, Arial, sans-Serif;
+}
+
+.box1{
+    padding-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 2rem 4rem;
+    width: 350px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.box2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 2rem 4rem;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2rem;
+
+}
+
+.has-separator
+{
+  font-size: 1.3rem;
+  color: #999999;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+button{
+    outline: none;
+    border: none;
+    width: 380px;
+    border-radius: 4rem;
+    background: #1877f2;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 0.9rem;
+}
+
+form input {
+    align-self: center;
+    width: 345px;
+    border-width: 0.02cm;
+    background-color: #f7f7f7;
+    border-color: #6e6e6e;
+    border-radius: 0.1rem;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    outline-color: #ececec;
+    font-size: 1.1rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.8rem;
+    color: black;
+    font-family: "Poppins", sans-serif,
+}
+
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+p img {
+    height: 1em;
+    width: auto;
+}
+
+.footer{
+    font-size: 8px;
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    min-width: 995px;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: bottom;
+}
+.footer a{
+    color: #848484;
+}
+
+.footer1{
+    align-items: center;
+    justify-content: space-evenly;
+    width: 980px;
+    margin: 0px auto;
+    padding: 0px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 8px;
+    color: #848484;
+}
+
+.footer1 a{
+    color: #767779;
+    display: inline;
+    margin-left: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
